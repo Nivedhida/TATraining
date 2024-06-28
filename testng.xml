@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Testing SalesForce">
+  <test name="Automation Test">
+	<classes>
+		<!--<class name="TestCases.SFDCLoginTestCases"/> -->
+		<!-- <class name="TestCases.UserMenuDropDown"/>-->
+		<!--<class name="TestCases.CreateOpty"/>-->
+		<!--<class name="TestCases.Leads"/>-->
+		<class name="TestCases.Contacts"/>
+		<class name="base.baseSelenium"/>
+		 <class name="base.baseSalesForce"/>
+		
+		
+	
+		
+							
+		  
+	</classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
